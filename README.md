@@ -1,16 +1,6 @@
-Sunshine
+Sunshine - Έκδοση για το 3ο μάθημα
 ========
 
-Sunshine is the companion Android app for the Udacity course [Developing Android Apps: Android Fundamentals](https://www.udacity.com/course/ud853).
+Υπάρχουν 2 branches. Το Master είναι η αρχική μορφή της εφαρμογής για το σημερινό μάθημα στην οποία η λίστα της οθόνης γεμίζει με ψευτικα δεδομένα.
 
-Take the course to find out how to build this app a step at a time, and eventually create your own Android App!
-
-This is the second version of the Sunshine code. The repository has been updated on:
-
-* **February 13th, 2015** - Major update
-* February 25, 2015 - Minor bug fixes
-* March 4th, 2015 - Minor bug fixes
-
-For the original version, please go [here](https://github.com/udacity/Sunshine).
-
-A changelog for the course can be found [here](https://docs.google.com/a/knowlabs.com/document/d/193xJb_OpcNCqgquMhxPrMh05IEYFXQqt0S6-6YK8gBw/pub).
+Το branch final-read-data-from-weather-json περιλαμβάνει την τελική έκδοση για το 3ο μάθημα στην οποια διαβάζουμε τα δεδομένα απο το API tou Open Weather Map, κάνουμε parse το JSON String που λαμβάνουμε, μορφοποιούμε τα αποτελέσματα ως λίστα και ανανεώνουμε το ListView στην οθόνη.
