@@ -231,13 +231,14 @@ public class ForecastFragment extends Fragment {
                     final String unitsParam= "units";
                     final String daysParam = "cnt";
                     final String apiKeyParam = "APPID";
+                    final String appIdValue = "27949ea6b6dffa1dad1deb925c9b024b";
 
                     Uri builtUri = Uri.parse(baseUrl).buildUpon()
                             .appendQueryParameter(queryParam,params[0])
                             .appendQueryParameter(formatParam,weatherFormat)
                             .appendQueryParameter(unitsParam, units)
                             .appendQueryParameter(daysParam, Integer.toString(numDays))
-                            .appendQueryParameter(apiKeyParam, "27949ea6b6dffa1dad1deb925c9b024b")
+                            .appendQueryParameter(apiKeyParam, appIdValue)
                             .build();
 
                     URL url = new URL(builtUri.toString());
